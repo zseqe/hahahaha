@@ -1,0 +1,121 @@
+{
+  "app": {
+    "title": "Plant Finder",
+    "subtitle": "Medicinal plant identification"
+  },
+  "steps": {
+    "s1": "Step 1: Add Photo",
+    "s2": "Step 2: Check Photo",
+    "s3": "Step 3: Get Result"
+  },
+  "actions": {
+    "history": "History",
+    "takePhoto": "Take Photo",
+    "choosePhoto": "Choose Photo",
+    "retake": "Retake",
+    "replace": "Replace",
+    "next": "Next: Identify Plant",
+    "checking": "Checking…",
+    "clear": "Clear",
+    "cancel": "Cancel",
+    "tryAgain": "Try Again",
+    "useGallery": "Use Gallery",
+    "flip": "Flip",
+    "capture": "Capture"
+  },
+  "tips": {
+    "title": "Easy Tips",
+    "t1": "Don’t shake phone (avoid blur)",
+    "t2": "Photo should be bright",
+    "t3": "Don’t take from far away"
+  },
+  "helper": {
+    "title": "Need help?",
+    "text": "If camera does not work, use “Gallery”. If permission is blocked, open browser settings and allow camera."
+  },
+  "camera": {
+    "title": "Camera",
+    "problemTitle": "Camera problem",
+    "blocked": "Camera permission is blocked. Please allow camera in browser settings, or use Gallery.",
+    "notFound": "No camera found on this device. Use Gallery.",
+    "failed": "Camera could not start. Use Gallery or try again."
+  },
+  "offline": {
+    "title": "No Internet",
+    "text": "You are offline. We saved your request and will retry when internet is back.",
+    "queued": "Saved for retry",
+    "retrying": "Retrying saved requests…"
+  },
+  "voice": {
+    "label": "Voice help",
+    "on": "On",
+    "off": "Off"
+  },
+  "lang": {
+    "label": "Language",
+    "en": "English",
+    "hi": "Hindi",
+    "kn": "Kannada",
+    "ml": "Malayalam"
+  },
+  "drawer": {
+    "about": "About",
+    "uses": "Primary Uses",
+    "moreInfo": "More Information",
+    "preparation": "Method of Preparation",
+    "adverse": "Adverse Effects",
+    "contra": "Contraindications",
+    "mapLink": "Open in Google Maps",
+    "morphology": "Morphological Features",
+    "differentiate": "How to Differentiate",
+    "historyDesc": "Your previous plant scans.",
+    "emptyHistory": "No history yet.",
+    "close": "Close"
+  },
+  "plants": [
+    {
+      "commonName": "sweet basil",
+      "scientificName": "Ocimum basilicum",
+      "description": "A fragrant culinary herb commonly used in cooking. It has mild medicinal properties but is mainly grown for flavor.",
+      "morphology": "A small leafy plant growing 30-60 cm tall. Leaves are smooth, bright green, soft, and oval-shaped with a pleasant smell.",
+      "differentiation": "Unlike Tulsi, sweet basil leaves are smooth and have a mild sweet aroma instead of a strong clove-like smell.",
+      "uses": "Used in cooking, helps mild digestion problems, reduces gas and bloating, and may help with mild headaches.",
+      "preparationText": "Boil 5-7 fresh leaves in water for 3-4 minutes and drink as light herbal tea.",
+      "adverseEffects": "Generally safe in food amounts. Very large amounts may affect blood clotting.",
+      "contraindications": "People taking blood-thinning medicines should avoid large medicinal use."
+    },
+    {
+      "commonName": "medical neem",
+      "scientificName": "Azadirachta indica",
+      "description": "A powerful medicinal tree widely used in rural India for skin diseases, infections, and oral health.",
+      "morphology": "A medium to large tree with long compound leaves made of many small pointed leaflets. Leaves taste very bitter.",
+      "differentiation": "Recognized by its strong bitterness and small white fragrant flowers.",
+      "uses": "Used for skin infections, wounds, pimples, itching, dandruff, and as natural insect repellent. Neem twigs are used for brushing teeth.",
+      "preparationText": "Crush fresh leaves into paste and apply on affected skin. For bathing, boil leaves in water and use that water.",
+      "adverseEffects": "Neem oil can be dangerous if swallowed, especially for children.",
+      "contraindications": "Avoid internal use during pregnancy and for small children."
+    },
+    {
+      "commonName": "aloe vera",
+      "scientificName": "Aloe barbadensis miller",
+      "description": "A thick succulent plant known for the cooling gel inside its leaves.",
+      "morphology": "Short stem plant with thick, fleshy green leaves having small teeth on the edges.",
+      "differentiation": "When cut open, clear slippery gel comes out from inside the leaf.",
+      "uses": "Used for burns, sunburn, minor wounds, skin dryness, and hair care. Helps cool the skin.",
+      "preparationText": "Cut a mature leaf, remove outer green skin carefully, and apply clear gel directly on skin.",
+      "adverseEffects": "The yellow latex under the skin can cause stomach pain and diarrhea if eaten.",
+      "contraindications": "People with stomach problems should not consume aloe latex."
+    },
+    {
+      "commonName": "tulsi",
+      "scientificName": "Ocimum tenuiflorum",
+      "description": "A sacred and medicinal plant widely used in Ayurveda for cough, cold, and immunity.",
+      "morphology": "A small plant 30-60 cm tall with hairy stems and slightly rough leaves that have a strong smell.",
+      "differentiation": "Leaves are slightly hairy and smell strong and spicy like clove.",
+      "uses": "Used for cough, cold, fever, immunity boosting, stress reduction, and respiratory health.",
+      "preparationText": "Boil 5-10 fresh leaves in one cup of water for 5 minutes and drink warm.",
+      "adverseEffects": "Excess use may lower blood sugar too much.",
+      "contraindications": "Pregnant women should consult doctor before regular medicinal use."
+    }
+  ]
+}
